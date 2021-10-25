@@ -6,10 +6,19 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.1",
     "@testing-library/user-event": "^12.2.2",
-    "react": "^17.0.1",
+    "axios": "^0.21.4",
+    "chunk": "^0.0.3",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.2",
+    "react-chunk": "^7.3.0",
     "react-dom": "^17.0.1",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4"
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^0.2.4",
+    "webpack-hot-dev-clients": "^2.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +43,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^4.3.1"
   }
 }

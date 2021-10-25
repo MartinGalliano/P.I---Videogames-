@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.filter {
+    flex-direction: column;
+    position:fixed;
+    top:0%;
+    right: 0%;
+    background-color: #ab44f073; 
+    display:flex;
+    justify-content:flex-start;
+    margin: 20px; 
+    padding: 50px 20px;
+    border: 2px solid rgba(162, 25, 190, 0.171);
+    border-radius: 5px;
+    font-family: 'RocknRoll One', sans-serif;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+.filter div {
+    width: 150px;
+    color: #81F5FF;
+    font-weight: 600;
+    animation: animate 10s linear infinite;
+   
+}
+
+@keyframes animate {
+    0%, 20%, 60%,92% {
+        color: #1bc9f5;
+        box-shadow: none;
+    }
+    0%, 10%, 50.1%, 87% {
+      color: #38ff63;
+      box-shadow: none;
+    }
+    0%, 15%, 70%, 80%,92% {
+      color: #ebfc00;
+      box-shadow: none;
+  }
+  }
+
+
+
+.filter select {
+    width: 145px;
+    border: 2px solid #e8e5ec;
+    border-radius: 10px;
+    background-color: rgba(162, 25, 190, 0.171);
+    color:salmon;
+    font-family: 'RocknRoll One', sans-serif;
+    margin: 7px;
+    height: 50px;
+    font-size: 15px;
+    
+  }
+
+.filter select:hover {
+    background-color: rgb(31, 4, 4);
+}
+
+.filter option {
+ font-size: 20px;
+    background: none;
+}

@@ -1,0 +1,9 @@
+.show{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  flex-direction: row;
+  width: 74%;
+ 
+}
+

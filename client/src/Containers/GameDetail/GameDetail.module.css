@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+
+/* .title{
+    font-size: 40px;
+    font-family: inherit;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-bottom: 30px;
+} */
+
+.info{
+    color:#FFFFDD;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full{
+  color:#FFFFDD;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.paw{
+    color: #A0FFE6;
+    margin: 5px;
+}
+
+.cardcontainer{
+    display:inline-block;
+    width:50%;
+    height: auto;
+    background: transparent;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0, .2);
+}
+
+.header{
+    border-right: 1px solid #FFFFDD;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.description{
+    
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.274) ;
+    border-radius: 20px;
+}
+
+/* .header, .description{
+    padding:20px;
+    text-align: start;
+    
+} */
+
+/* .imagen{
+    max-width:  300;
+    max-height: 300;
+} */
+
+.imagen{
+    margin-top: 30px;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 12px -1px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 2px 1px 12px -1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 2px 1px 12px -1px rgba(0,0,0,0.24);
+}
+
+.button {
+    color: white;
+    background-color:#00d2ad;
+    border-radius: 15px;
+    padding: 7px 0;
+    /* width: 100%; */
+    margin: 70px;
+    font-size: 20px;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+}
+
+.button:hover{
+    background-color:steelblue;
+    transition: all .3s;
+}

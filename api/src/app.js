@@ -9,11 +9,13 @@ require('./db.js');
 const server = express();
 
 server.name = 'API';
-
+// Utiliza datos JSON y solicitud http post se utiliza junto con express
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
 server.use(cookieParser());
 server.use(morgan('dev'));
+
+
 server.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', 'http://localhost:3000'); // update to match the domain you will make the request from
   res.header('Access-Control-Allow-Credentials', 'true');
@@ -33,3 +35,9 @@ server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
 });
 
 module.exports = server;
+
+
+// Headers-----> desde el servidor al Cliente
+// rutas 
+// control de errores
+

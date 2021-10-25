@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+.h1 {
+   position: absolute;
+    left: 2%;
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%, 20%, 60%,92% {
+        color: #1bc9f5;
+        box-shadow: none;
+    }
+    0%, 10%, 50.1%, 87% {
+      color: #38ff63;
+      box-shadow: none;
+    }
+    0%, 15%, 70%, 80%,92% {
+      color: #ebfc00;
+      box-shadow: none;
+  }
+  }
+
+ .button {
+    color: white;
+    background-color: #a509ff71;
+    border-radius: 50px;
+    border: none;
+    font:icon;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.button:hover{
+    background-color: #1dffff;
+    transition: all .2s;
+} 
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+} 
+ 
+.linkContainer a {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 25px;
+    margin: 0 20px;
+    color:#A0FFE6;;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all .3s;    
+    animation: animate 10s linear infinite;
+   
+}
+
+@keyframes animate {
+    0%, 20%, 60%,92% {
+        color: #1bc9f5;
+        box-shadow: none;
+    }
+    0%, 10%, 50.1%, 87% {
+      color: #38ff63;
+      box-shadow: none;
+    }
+    0%, 15%, 70%, 80%,92% {
+      color: #ebfc00;
+      box-shadow: none;
+  }
+  }
+
+  
+.hover {
+    display: inline-block;
+    position: relative;
+    color: #00d2ad;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder {
+    opacity: 0.5;
+ }
+
+.input{
+    font-family: inherit;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 4px;
+    border: 2px solid #0000004f;
+    outline: none;
+    
+}
+ 
+.input:hover{
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #95f7e5;
+    outline: none;
+   
+}
+
+.input:focus{
+    border: 2px solid #7e00d2;
+} 
+ 
+ 
