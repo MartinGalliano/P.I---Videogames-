@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import style from './NavBar.module.css'
+import style from './NavBar.module.css' 
 
 function NavBar() {
   const [name, setName] = useState("");

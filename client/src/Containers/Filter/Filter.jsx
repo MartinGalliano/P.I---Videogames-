@@ -10,7 +10,7 @@ export function Filter() {
     
     useEffect(() => {
         dispatch(getGenres())
-    }, []);
+    }, [dispatch]);
 
     //Filtrar x genero
     const handleFilter = (e) => {

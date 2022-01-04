@@ -10,7 +10,7 @@ function GameDetail({ id }) {
 
     useEffect(() => {
         dispatch(getVideogameById(id));
-    }, []); 
+    }, [dispatch]); 
 
     return (    
         <div className={style.full}>

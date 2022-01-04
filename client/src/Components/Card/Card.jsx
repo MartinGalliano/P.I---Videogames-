@@ -6,7 +6,7 @@ function Card({data}) {
 	return (
 		<div className={style.card}>
 			<Link to={`/videogames/${data.id}`}>
-        	(<img className={style.img} src={data.image} alt={data.name} />)
+        	<img className={style.img} src={data.image} alt={data.name} />
 			</Link>
 			<div className={style.textCard}>
 				<div className={style.nameGenres}>

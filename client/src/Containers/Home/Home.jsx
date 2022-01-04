@@ -17,7 +17,7 @@ function Home() {
   useEffect(() => {
     dispatch (resetAll());
     dispatch(getVideogames());
-  }, []);
+  }, [dispatch]);
 
 // Filtrado y Ordenado
   let allVideogames;
